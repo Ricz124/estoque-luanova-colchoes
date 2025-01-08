@@ -1,5 +1,13 @@
-function Page() { 
-  return (<></>); 
+import React from "react";
+import Navbar from "./components/nav-bar/navbar";
+
+function App() {
+  return (
+    <div>
+      <Navbar />
+      {/* Other components go here */}
+    </div>
+  );
 }
 
-export default Page;
+export default App;
